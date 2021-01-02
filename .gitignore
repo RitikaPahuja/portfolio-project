@@ -146,6 +146,7 @@ dmypy.json
 # pytype static type analyzer
 .pytype/
 
+static/admin/
 # profiling data
 .prof
 
