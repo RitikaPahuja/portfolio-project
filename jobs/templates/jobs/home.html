@@ -66,7 +66,7 @@
     <div class="container">
 
         <h1 class="jumbotron-heading">Ritika Pahuja</h1>
-        <p class="lead text-muted">Live and Let Live !</p>
+        <p class="lead text-muted">Software Developer | Problem Solver | Loves to design code and algorithms</p>
         <p>
           <a href="mailto:ritikapahuja95@example.com?subject=feedback" class="btn btn-primary my-2">Email</a>
 
@@ -85,7 +85,7 @@
         {% for job in jobs.all %}
         <div class="col">
           <div class="card shadow-sm">
-            <img class="bd-placeholder-img card-img-top" src="{{ job.image.url }}">
+            <img class="bd-placeholder-img card-img-top" src="{{ job.image.url }}" height="200" width="300">
             <div class="card-body">
               <p class="card-text">{{ job.summary }}</p>
 
